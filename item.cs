@@ -11,6 +11,7 @@ namespace PiersonProject
     class item
     {
         static public double lamb=0;
+       
         static public double N = 0;
 
         public int Xi { get; set; }
@@ -58,7 +59,6 @@ namespace PiersonProject
 
             for (int i = 1; i <= value; ++i)
             {
-
                 sum *= i;
             }
 
